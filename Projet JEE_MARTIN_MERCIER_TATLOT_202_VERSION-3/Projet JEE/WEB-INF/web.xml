@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app> 
+
+	<display-name> Tous au Soleil !
+	</display-name>
+
+	
+	 <!-- Define servlets that are included in the example application -->
+	
+	
+	<servlet> 
+		<servlet-name> Reserver </servlet-name>
+		<servlet-class> controleur.Reserver </servlet-class>       
+	</servlet>
+	
+	<servlet-mapping> 
+		<servlet-name> Reserver </servlet-name>
+		<url-pattern> /Reserver </url-pattern>
+	</servlet-mapping>	
+	
+	<servlet> 
+		<servlet-name> Connexion </servlet-name>
+		<servlet-class> controleur.Connexion </servlet-class>       
+	</servlet>
+	
+	<servlet-mapping> 
+		<servlet-name> Connexion </servlet-name>
+		<url-pattern> /Connexion </url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+   <servlet-name>HelloWorld</servlet-name>
+   <servlet-class>controleur.HelloWorld</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>HelloWorld</servlet-name>
+   <url-pattern>/HelloWorld</url-pattern>
+</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name> Consulter </servlet-name>
+		<servlet-class> controleur.Consulter </servlet-class>       
+	</servlet>
+	
+	<servlet-mapping> 
+		<servlet-name> Consulter </servlet-name>
+		<url-pattern> /Consulter </url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+		<servlet-name> test </servlet-name>
+		<servlet-class> controleur.Test </servlet-class>       
+	</servlet>
+	
+	<servlet-mapping> 
+		<servlet-name> test </servlet-name>
+		<url-pattern> /test </url-pattern>
+	</servlet-mapping>
+
+</web-app>

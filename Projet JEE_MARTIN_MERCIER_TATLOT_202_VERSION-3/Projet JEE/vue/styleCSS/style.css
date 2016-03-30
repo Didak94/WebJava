@@ -1,0 +1,21 @@
+
+body {
+	background-color:gray;
+}
+
+h1 {
+	color:#fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2 {
+	color:#fff;
+	text-align: center;
+	font-size: 25px;
+}
+
+.formulaire{
+	position:center;
+}
+
